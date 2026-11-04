@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "swordhitcounter",
+  "version": "${version}",
+  "name": "Sword Hit Counter",
+  "description": "Look at any mob to see how many sword hits it takes to kill it, for every sword, plus Sharpness V and Smite V versions of diamond and netherite.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.hitcounter.HitCounterClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
